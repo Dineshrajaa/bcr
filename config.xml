@@ -28,6 +28,7 @@
     <gap:plugin name="org.apache.cordova.dialogs" version="0.2.10" />
     <!--THIRD PARTY PLUGINS-->
     <gap:plugin name="com.phonegap.plugins.barcodescanner" version="1.1.0" />
+    <gap:plugin name="nl.x-services.plugins.toast" />
     <icon src="logo.png" />
     <icon src="icon.png" />
     <!--ICON FOR ios-->
