@@ -12,10 +12,8 @@ $(document).ready(function(){
 		function onErrors(error){
 			alert("Scanning Failed: "+error);		
 					 		}
-		function alertClosed(results){
-			var op="Content: "+results.text+"<br />"+
-			"Format: "+results.format;
-			$("#outputdiv").html(op);
+		function alertClosed(){			
+			alert("Thanks for using BCR");
 		}
 	});
 });
