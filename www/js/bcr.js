@@ -12,10 +12,7 @@ $(document).ready(function(){
 			$("#outputdiv").html(op);
 		}
 		function onErrors(error){
-			alert("Scanning Failed: "+error);
-			var fop="Content: Not Found<br />
-					 Format: Unable to detect"
-					 $("#outputdiv").html(fop);
-		}
+			alert("Scanning Failed: "+error);		
+					 		}
 	});
 });
