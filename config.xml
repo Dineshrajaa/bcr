@@ -24,7 +24,9 @@
     <preference name="SplashScreenDelay" value="5000" />
     <content src="index.html" />
     <access origin="*" />
-
+    <!--CORE PLUGINS-->
+    <gap:plugin name="org.apache.cordova.dialogs" version="0.2.10" />
+    <!--THIRD PARTY PLUGINS-->
     <gap:plugin name="com.phonegap.plugins.barcodescanner" version="1.1.0" />
     <icon src="logo.png" />
     <icon src="icon.png" />

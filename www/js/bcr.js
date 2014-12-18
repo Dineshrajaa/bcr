@@ -7,12 +7,15 @@ $(document).ready(function(){
 			cordova.plugins.barcodeScanner.scan(onScan,onErrors);
 		}
 		function onScan(results){
-			var op="Content: "+results.text+"<br />"+
-			"Format: "+results.format;
-			$("#outputdiv").html(op);
+			navigator.notification.alert(results.text,alertClosed,results.format,'ok');			
 		}
 		function onErrors(error){
 			alert("Scanning Failed: "+error);		
 					 		}
+		function alertClosed(results){
+			var op="Content: "+results.text+"<br />"+
+			"Format: "+results.format;
+			$("#outputdiv").html(op);
+		}
 	});
 });
